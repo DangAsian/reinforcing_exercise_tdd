@@ -4,6 +4,8 @@ require 'minitest/pride'
 require './calculator.rb'
 
 class TestCalculator < MiniTest::Test
+
+
   # add takes two parameters and adds them
   def test_adds_0_and_0
     assert_equal 0, add(0, 0)
